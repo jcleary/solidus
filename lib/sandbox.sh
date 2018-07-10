@@ -36,7 +36,7 @@ fi
 
 cd ./sandbox
 cat <<RUBY >> Gemfile
-
+gem 'pkg-config', '~> 1.1'
 gem 'solidus', path: '..'
 gem 'solidus_auth_devise', '>= 2.1.0'
 gem 'rails-i18n'
